@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 cohere_api_key = os.getenv("COHERE_API_KEY")
-os.environ["COHERE_API_KEY"] = "HYEMA9fVtqurNxhJE7wmH2LsHbddBOcaFMAswJCO"
+
 
 client = chromadb.PersistentClient(path="./multiple_chromadb")
 device = "cpu"
